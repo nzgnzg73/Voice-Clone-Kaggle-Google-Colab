@@ -1,0 +1,38 @@
+
+kaggle F5 TTS Hindi 
+
+voice to text 
+
+https://huggingface.co/spaces/hf-audio/whisper-large-v3-turbo
+
+
+
+Option Hindi 
+👇🏼👇🏼👇🏼👇🏼👇🏼👇🏼
+
+Small TTS
+👆🏼👆🏼👆🏼👆🏼👆🏼
+upar jo maine aapko bataya hai (small TTS) is per apne click karke apni voice upload karne hai wo Hindi Wale  per Apne ( generate ) Per click kar dena hai to voice clone ho jayegi
+
+
+
+Coding Start 😁 🙂 
+
+
+step (1)
+
+!git clone https://github.com/rumourscape/F5-TTS.git
+%cd F5-TTS
+# git submodule update --init --recursive  # (optional, if need bigvgan)
+!pip install -e .
+from IPython.display import clear_output
+clear_output()
+
+
+
+step (2)
+
+
+!f5-tts_infer-gradio --share
+
+
