@@ -1,0 +1,45 @@
+CPU:- No Graphics Card 
+GPU:- Yes Graphics Card 
+.
+GitHub:- https://github.com/devnen/Chatterbox-TTS-Server
+
+
+CPU 👇🏼👇🏼👇🏼👇🏼👇🏼
+ 
+ * cd D:\Chatterbox-TTS-Server
+
+ * git clone https://github.com/devnen/Chatterbox-TTS-Server.git .
+
+ * python -m venv venv
+
+ * venv\Scripts\activate
+
+ * pip install torch torchvision torchaudio
+
+ * pip install -r requirements.txt
+
+ * pip install ffmpeg-python
+
+ * python server.py --device=cpu
+
+
+
+GPU:- 👇🏼👇🏼👇🏼
+
+ * cd D:\Chatterbox-TTS-Server
+
+ * git clone https://github.com/devnen/Chatterbox-TTS-Server.git .
+
+ * python -m venv venv
+
+ * venv\Scripts\activate
+
+ * pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+ * pip install -r requiremelnts.txt
+
+ * pip install ffmpeg-python
+
+ * python server.py
+
+
